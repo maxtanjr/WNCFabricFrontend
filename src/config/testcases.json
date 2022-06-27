@@ -1,0 +1,166 @@
+{
+    "<SYSTEM>": {
+        "<TEST CASE DISPLAY TITLE>" : {
+            "description": "<TEST CASE DESCRIPTION>",
+            "value": "<VALUE TO INCLUDE IN 'test-case' field of the TOGGLE PAYLOAD, ACCEPTED BY SIMULATOR>"
+        }
+    }, 
+
+    "lifts": {
+        "Default": {
+            "description": "Sets lift simulator to normal mode, and travels to different floors at random in a typical scenario.",
+            "value":"DEFAULT"
+        },
+        "Disconnected": {
+            "description": "Sets lift simulator to disconnected mode. There will be no data sent to the ODP in this state.",
+            "value":"LIFT-DISCONNECTED"
+        },
+        "Power Saving": {
+            "description": "Sets lift simulator to toggle between power saving mode and normal mode at an interval of 1 second. Lift simulator does not move in this state.",
+            "value":"POWER-SAVING"
+        },
+        "Emergency Power": {
+            "description":"Sets lift simulator to toggle between emergency power mode and normal mode at an interval of 1 second.Lift simulator does not move in this state.",
+            "value":"EMERGENCY-POWER"
+        },
+        "Homed": {
+            "description":"Attempt to bring the lift simulator down to level 1.",
+            "value":"HOMED"
+        },
+        "Servicing": {
+            "description":"Sets lift simulator to toggle between servicing mode and normal mode at an interval of 1 second. Lift simulator does not move in this state.",
+            "value":"SERVICING"
+        },
+        "Attendant": {
+            "description":"Sets lift simulator to toggle between attendant mode and normal mode at an interval of 1 second. Lift simulator does not move in this state.",
+            "value":"ATTENDANT"
+        },
+
+        "Out-of-Order": {
+            "description":"Sets lift simulator to toggle between out-of-order mode and normal mode at an interval of 1 second. Lift simulator does not move in this state.",
+            "value":"OOO"
+        },
+        "Fire Event": {
+            "description":"Sets lift simulator to fire event mode. Lift simulator will travel to level 1.",
+            "value":"FIRE"
+        },
+        "Mantrap": {
+            "description":"Sets lift simulator to toggle between mantrap mode and normal mode at an interval of 1 second. This is to simulate a person being stuck in the lift. ",
+            "value":"MANTRAP"
+        },
+        "Crime": {
+            "description":"Sets lift simulator to toggle between crime mode and normal mode at an interval of 1 second. This is to simulate attempts to forcefully open the lift doors ",
+            "value":"CRIME"
+        },
+        "AGV":{
+            "description":"Sets lift simulator to toggle between AGV mode and normal mode at an interval of 1 second. In a real scenario, lifts will be able to react to remote control commands from the ODP.",
+            "value":"AGV"
+        },
+        "Reserved":{
+            "description":"Sets lift simulator to toggle between reserved mode and normal mode at an interval of 1 second. In a real scenario, lifts will only to react to remote control commands from the ODP, ignoring all car and hall calls.",
+            "value":"RESERVED"
+        },
+        "Cobot":{
+            "description":"Sets lift simulator to toggle between Cobot mode and normal mode at an interval of 1 second. In a real scenario, lifts will be able to react to remote control commands from the ODP.",
+            "value":"COBOT"
+        },
+        "Overload": {
+            "description":"Sets lift simulator to toggle between overloaded and normal mode at an interval of 1 second. In a real scenario, this mode will be triggered when the carry weight within the lift car has reached the limit.",
+            "value":"OVERLOAD"
+        },
+        "Door Curtain Blocked": {
+            "description":"Sets lift simulator's doors to toggle between curtain sensor blocked and normal states at an interval of 1 second.",
+            "value":"DOOR-CURTAIN-BLOCKED"
+        },
+        "Door Safety Triggered": {
+            "description":"Sets lift simulator's doors to toggle between safety sensor triggered and normal states at an interval of 1 second.",
+            "value":"DOOR-SAFETY-TRIGGER"
+        },
+        "Idle": {
+            "description": "Sets lift simulator to idle; will not randomly traverse between floors and make other lift actions. Helpful for testing controls sent by other ODP apps.",
+            "value":"EXTERNAL-CONTROL"
+        }
+    },
+
+    "BMS": {
+        "BTU": {
+          "Default": {
+            "description": "Set BTU meter to function as per normal.",
+            "value": "DEFAULT"
+          },
+          
+          "Chilled Water Flow - Abnormal": {
+            "description": "Set water flow to be lesser than 0.1l/sec.",
+            "value": "AB_CHWF"
+          },
+          
+          "Chilled Water Supply Temperature - Abnormal": {
+            "description": "Set supply temperature to be greater than 30.0 degrees.",
+            "value": "AB_CHWST"
+          },
+          
+          "Chilled Water Return Temperature - Abnormal": {
+            "description": "Set return temperature to be greater than 30.0 degrees.",
+            "value": "AB_CHWRT"
+          },
+          
+          "Active Power - Abnormal": {
+            "description": "Set Activer Power to draw power greater than 400.0kW.",
+            "value": "AB_KW"
+          }
+        },
+
+        "FCU": {
+          "Default": {
+            "description": "Set asset to function as per normal.",
+            "value": "DEFAULT"
+          },
+          "OFF": {
+              "description": "Set command to 'OFF'.",
+              "value": "OFF"
+          },
+          "Trip": {
+              "description": "Set asset to 'TRIP'.",
+              "value": "TRIP"
+          },
+          "Set Return Air Temperature to 'High'": {
+              "description": "Set the setpoint to 45 degrees.",
+              "value": "HI_TEMP"
+          },
+          "Set Return Air Temperature to 'Low'": {
+              "description": "Set the setpoint to 15 degrees.",
+              "value": "LO_TEMP"
+          }
+        },
+
+        "Pumps": {
+            "Default": {
+              "description": "Set pump to run as per normal.",
+              "value": "DEFAULT"
+            },
+            "Trip": {
+                "description": "Set pump to 'Trip' state, Status will be 'OFF' and Energy Consumption will not increase.",
+                "value": "TRIP"
+            }
+          },
+
+          "Tanks": {
+            "Default": {
+              "description": "Set tank to function as per normal.",
+              "value": "DEFAULT"
+            },
+            "Low Water Level Alarm": {
+                "description": "Raise the low level alarm due to low in water capacity.",
+                "value": "LO_LVL_ALRM"
+            },
+            "High Water Level Alarm": {
+                "description": "Raise the high level alarm due to high in water capacity.",
+                "value": "HI_LVL_ALRM"
+            },
+            "Water Overflow Alarm": {
+                "description": "Raise the overflow alarm due to overflowing in water capacity.",
+                "value": "OF_ALRM"
+            }
+          }
+      }
+}

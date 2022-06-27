@@ -1,0 +1,149 @@
+{
+    "lifts": {
+        "1": {
+            "building": 1,
+            "type":"Goods"
+        },
+        "2": {
+            "building":1,
+            "type":"Goods"
+        },
+        "3": {
+            "building":1,
+            "type":"Goods"
+        },
+        "4": {
+            "building":1,
+            "type":"Fire A"
+        },
+        "5": {
+            "building":1,
+            "type":"Passenger"
+        },
+        "6": {
+            "building":1,
+            "type":"Passenger"
+        },
+        "7": {
+            "building":1,
+            "type":"Passenger"
+        },
+        "8": {
+            "building":1,
+            "type":"Passenger"
+        },
+        "9": {
+            "building":1,
+            "type":"Fire B"
+        },
+        "10": {
+            "building":1,
+            "type":"Carpark"
+        },
+        "11": {
+            "building":1,
+            "type":"Carpark"
+        },
+        "12": {
+            "building":7,
+            "type":"Goods"
+        },
+        "13": {
+            "building":7,
+            "type":"Goods"
+        },
+        "14": {
+            "building":7,
+            "type":"Goods"
+        },
+        "15": {
+            "building":7,
+            "type":"Goods"
+        },
+        "16": {
+            "building":7,
+            "type":"Passenger"
+        },
+        "17": {
+            "building":7,
+            "type":"Passenger"
+        },
+        "18": {
+            "building":7,
+            "type":"Passenger"
+        },
+        "19": {
+            "building":7,
+            "type":"Passenger"
+        },
+        "20": {
+            "building":7,
+            "type":"Fire A"
+        },
+        "21": {
+            "building":7,
+            "type":"Fire B"
+        },
+        "22": {
+            "building":7,
+            "type":"Carpark"
+        },
+        "23": {
+            "building":7,
+            "type":"Carpark"
+        }
+    },
+
+    "modes": {
+        "0": "",
+        "1": "Normal",
+        "2": "Servicing",
+        "3": "Fire",
+        "4": "Emergency",
+        "5": "Attendant",
+        "6": "Freight",
+        "7": "Out-of-Order",
+        "8": "Reserved",
+        "9": "ph",
+        "10": "pl",
+        "11": "Simplex",
+        "12": "Lift-Failure",
+        "13": "Parking Floor",
+        "14": "Rescue",
+        "15": "Disconnected",
+        "16": "Earthquake",
+        "17": "Fast Recall",
+        "18": "Reserve Dispatch",
+        "19": "AGV",
+        "20": "High Wind",
+        "21": "Storm",
+        "22": "Reduced Speed",
+        "23": "Evacuation",
+        "24": "Car Cleaning 1",
+        "25": "Car Cleaning 2",
+        "26": "OOS",
+        "27": "Invasion",
+        "28": "Setup",
+        "29": "Substance Release",
+        "30": "Power Saving",
+        "31": "Homed",
+        "32": "Mantrap",
+        "33": "Crime",
+        "34": "Cobot"
+    },
+
+    "doorModes": {
+        "0": "",
+        "1": "Normal",
+        "2": "Nudging",
+        "3": "Curtain"
+    },
+
+    "moveModes": {
+        "0": "",
+        "1": "Down",
+        "2": "Up",
+        "3": "None",
+        "4": "Stationary"
+    }
+}

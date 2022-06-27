@@ -1,0 +1,140 @@
+{
+    "cctv": {
+        "devices":[
+            {
+                "device_id":"CCTV_00",
+                "rtspChannelId":"",
+                "building": "1",
+                "level": "4",
+                "zone_id":"Ping Pong"
+            },
+            {
+                "device_id":"CCTV_01",
+                "rtspChannelId":"rtsp://192.168.4.6:8554/CCTV_01",
+                "building": "1",
+                "level":"1",
+                "zone_id":null
+            },
+            {
+                "device_id":"CCTV_02",
+                "rtspChannelId":"2",
+                "building": "1",
+                "level":"1",
+                "zone_id":null
+            },
+            {
+                "device_id":"CCTV_03",
+                "rtspChannelId":"3",
+                "building": "1",
+                "level":"1",
+                "zone_id":null
+            },
+            {
+                "device_id":"CCTV_04",
+                "rtspChannelId":"4",
+                "building": "1",
+                "level":"1",
+                "zone_id":null
+            },
+            {
+                "device_id":"CCTV_05",
+                "rtspChannelId":"5",
+                "building": "1",
+                "level":"1",
+                "zone_id":null
+            },
+            {
+                "device_id":"CCTV_06",
+                "rtspChannelId":"6",
+                "building": "1",
+                "level":"1",
+                "zone_id":null
+            },
+            {
+                "device_id":"CCTV_07",
+                "rtspChannelId":"7",
+                "building": "1",
+                "level":"1",
+                "zone_id":null
+            },
+            {
+                "device_id":"CCTV_08",
+                "rtspChannelId":"8",
+                "building": "1",
+                "level":"1",
+                "zone_id":null
+            },
+            {
+                "device_id":"CCTV_09",
+                "rtspChannelId":"9",
+                "building": "1",
+                "level":"1",
+                "zone_id":null
+            },
+            {
+                "device_id":"CCTV_14",
+                "rtspChannelId":"14",
+                "building": "7",
+                "level":"B1",
+                "zone_id":null
+                
+            },
+            {
+                "device_id":"CCTV_15",
+                "rtspChannelId":"15",
+                "building": "7",
+                "level":"B1",
+                "zone_id":null
+            },
+            {
+                "device_id":"CCTV_16",
+                "rtspChannelId":"16",
+                "building": "7",
+                "level":"B1",
+                "zone_id":null
+            },
+            {
+                "device_id":"CCTV_17",
+                "rtspChannelId":"17",
+                "building": "7",
+                "level":"B1",
+                "zone_id":null
+            },
+            {
+                "device_id":"CCTV_18",
+                "rtspChannelId":"18",
+                "building": "7",
+                "level":"B1",
+                "zone_id":null
+            },
+            {
+                "device_id":"CCTV_19",
+                "rtspChannelId":"19",
+                "building": "7",
+                "level":"B1",
+                "zone_id":null
+            },
+            {
+                "device_id":"CCTV_20",
+                "rtspChannelId":"20",
+                "building": "7",
+                "level":"B1",
+                "zone_id":null
+            },
+            {
+                "device_id":"CCTV_21",
+                "rtspChannelId":"21",
+                "building": "7",
+                "level":"B1",
+                "zone_id":null
+            },
+            {
+                "device_id":"CCTV_22",
+                "rtspChannelId":"22",
+                "building": "7",
+                "level":"B1",
+                "zone_id":null
+            }
+        ]
+    }
+}

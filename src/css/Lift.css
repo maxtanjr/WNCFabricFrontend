@@ -1,0 +1,20 @@
+.lift-header{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    
+}
+
+.lift-card-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    height: 85%;
+    flex-wrap: wrap;
+    overflow-y: auto;
+    z-index: 1;
+}

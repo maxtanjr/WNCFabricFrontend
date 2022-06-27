@@ -1,0 +1,132 @@
+.portal-container {
+    z-index: 11;
+    background: rgba(73, 72, 72, 0.33)!important;
+    top:0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    position:fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal {
+    position: relative;
+    z-index: 11;
+    width: 620px;
+    height: 800px;
+    top: auto;
+    left: auto;
+    background: rgb(21, 30, 49);
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    border-radius: 12px;
+    border: solid 1px rgb(55, 65, 81);
+    color: white;
+    animation: animate 0.2s;
+    padding: 30px 15px 10px 15px;
+  }
+
+  .header-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    height: 40px;
+    width: 100%;
+  }
+
+  .modal button {
+    position: relative;
+    top: -10px;
+    color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #60d5dc;
+    border-radius:0.25rem;
+    background-color: rgb(33, 33, 48);
+    width:80px;
+    height:35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .test-case-container {
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
+    overflow: hidden auto;
+    justify-content: flex-start;
+    color: white;
+    height: 92%;
+    width: 100%;
+    background-color: rgb(13, 15, 34);
+  }
+
+  .test-case-btn {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 160px;
+    width: 100%;
+    background-color: transparent;
+    cursor: pointer;
+  }
+
+  .test-case-btn-elem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 90%;
+    height: 100%;
+    background-color: transparent;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  .test-case-btn-title {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .test-case-btn-desc {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    color: antiquewhite;
+    font-size: 16px;
+    font-style: italic;
+  }
+
+  .test-case-btn:hover {
+    background-color: rgb(40, 52, 77);
+  }
+
+  .test-case-btn-icon {
+    display: flex;
+    justify-content: center;
+    height: 24px;
+    width: 24px;
+    margin-right: 15px;
+  }
+
+
+  @keyframes animate {
+    from {
+      transform: scale(0.5);
+    }
+    to {
+      transform: scale(1);
+    }
+  }

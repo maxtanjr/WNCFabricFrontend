@@ -1,0 +1,17 @@
+{
+    "backendPort": 7443,
+    "rtspWebPort": 8443,
+    "backendHost": "http://127.0.0.1",
+
+    "getLiftDataRoute": "/v1/lifts/data/wnc/all",
+    "getFcuDataRoute": "/v1/bms/acmv/fcu/data/wnc/all",
+    "getBtuDataRoute": "/v1/bms/acmv/btu/data/wnc/all",
+    "getPumpsDataRoute": "/v1/bms/pns/pumps/data/wnc/all",
+    "getTanksDataRoute": "/v1/bms/pns/tanks/data/wnc/all",
+
+    "toggleLiftTestCaseRoute": "/v1/lifts/toggle/wnc",
+    "toggleBmsTestCaseRoute": "/v1/bms/toggle/wnc",
+
+    "getLivelinessRoute":"/v1/liveliness/wnc"
+    
+}

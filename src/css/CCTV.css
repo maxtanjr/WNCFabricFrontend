@@ -1,0 +1,69 @@
+.cctv-header{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    
+}
+
+.cctv-card-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    height: 85%;
+    flex-wrap: wrap;
+    overflow-y: auto;
+    z-index: 1;
+}
+
+
+.cctv-portal-container {
+    z-index: 11;
+    background: rgba(73, 72, 72, 0.33)!important;
+    top:0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    position:fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .cctv-modal {
+    position: relative;
+    z-index: 11;
+    width: 640px;
+    height: 420px;
+    top: auto;
+    left: auto;
+    background: rgb(21, 30, 49);
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    border-radius: 12px;
+    border: solid 1px rgb(55, 65, 81);
+    color: white;
+    animation: animate 0.2s;
+    padding: 30px 15px 10px 15px;
+  }
+
+  .cctv-modal button {
+    position: relative;
+    top: -10px;
+    color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #60d5dc;
+    border-radius:0.25rem;
+    background-color: rgb(33, 33, 48);
+    width:80px;
+    height:35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }

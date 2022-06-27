@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  font-family: "Space Grotesk";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: "Space Grotesk";
+}
+
+.navbar {
+  border-bottom: 2px solid #1c274f;
+  border-bottom-color: rgb(28, 39, 79);
+}
+
+.navbar-layout {
+  height: 64px;
+  padding: 0 50px;
+  line-height: 64px;
+  background: #131a35;
+}
+
+
