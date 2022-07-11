@@ -12,7 +12,7 @@ const BmsFcuCard = (props) => {
     const [testCaseVal, setTestCaseVal] = useState("");
 
     const config = require("../../config/config.json");
-    const toggleFcuTestCaseRoute = config.backendHost + ":" + config.backendPort + config.toggleBmsTestCaseRoute;
+    const toggleFcuTestCaseRoute = config.backendHost + ":" + config.backendPort + config.toggleFcuTestCaseRoute;
 
     const openModal = () => {
         setModalState(true);
@@ -51,7 +51,7 @@ const BmsFcuCard = (props) => {
             <span id={'fcu-'+props.deviceId+'-card'}>
                 <div className='fcu-sim-running'>
                     
-                    <div className='fcu-device-title-container'>FCU {props.deviceId}</div>
+                    <div className='fcu-device-title-container'>{props.deviceId}</div>
                     
                     <div className='rule mt-3 mb-4'></div>
 

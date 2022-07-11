@@ -94,7 +94,7 @@ let BmsFcu = (props) => {
                 // type
                 var split = id.split("_");
                 var type = split[1];
-                var deviceId = parseInt(split[3]);
+                var deviceId = (split.slice(1)).join("-");;
                 var level = split[2][1];
 
                 fcuData.type = type;

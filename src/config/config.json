@@ -1,7 +1,8 @@
 {
     "backendPort": 7443,
     "rtspWebPort": 8443,
-    "backendHost": "http://127.0.0.1",
+    "backendHost": "http://10.1.64.2",
+    "rtspBackendHost":"http://127.0.0.1",
 
     "getLiftDataRoute": "/v1/lifts/data/wnc/all",
     "getFcuDataRoute": "/v1/bms/acmv/fcu/data/wnc/all",
@@ -11,6 +12,10 @@
 
     "toggleLiftTestCaseRoute": "/v1/lifts/toggle/wnc",
     "toggleBmsTestCaseRoute": "/v1/bms/toggle/wnc",
+    "toggleFcuTestCaseRoute": "/v1/fcu/toggle/wnc",
+    "toggleBtuTestCaseRoute": "/v1/btu/toggle/wnc",
+    "togglePumpsTestCaseRoute": "/v1/pumps/toggle/wnc",
+    "toggleTanksTestCaseRoute": "/v1/tanks/toggle/wnc",
 
     "getLivelinessRoute":"/v1/liveliness/wnc"
     

@@ -59,7 +59,7 @@ let BmsBtu = (props) => {
 
     useEffect(
         () => {
-            let interval = setInterval(() => fetchBtuData(), (500 * 1)) //update every second
+            let interval = setInterval(() => fetchBtuData(), (2000 * 1)) //update every second
 
             var arr = buildTestCaseArrays();
             setTestCaseArr(arr);
@@ -93,8 +93,8 @@ let BmsBtu = (props) => {
                 // type
                 var split = id.split("_");
                 var type = split[1];
-                var deviceId = parseInt(split[3]);
-                var level = parseInt(split[2]);
+                var deviceId = (split.slice(1)).join("-");
+                var level = split[2];
 
                 btuData.type = type;
                 btuData.deviceId = deviceId;

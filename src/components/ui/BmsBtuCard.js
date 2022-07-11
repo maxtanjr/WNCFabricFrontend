@@ -12,7 +12,7 @@ const BmsBtuCard = (props) => {
     const [testCaseVal, setTestCaseVal] = useState("");
 
     const config = require("../../config/config.json");
-    const toggleBtuTestCaseRoute = config.backendHost + ":" + config.backendPort + config.toggleBmsTestCaseRoute;
+    const toggleBtuTestCaseRoute = config.backendHost + ":" + config.backendPort + config.toggleBtuTestCaseRoute;
 
     const openModal = () => {
         setModalState(true);
@@ -51,7 +51,7 @@ const BmsBtuCard = (props) => {
             <span id={'btu-'+props.deviceId+'-card'}>
                 <div className='btu-sim-running'>
                     
-                    <div className='btu-device-title-container'>BTU {props.deviceId}</div>
+                    <div className='btu-device-title-container'>{props.deviceId}</div>
                     
                     <div className='rule mt-3 mb-4'></div>
 

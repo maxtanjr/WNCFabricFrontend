@@ -94,7 +94,7 @@ let BmsTanks = (props) => {
                 // type
                 var split = id.split("_");
                 var type = "Tank";
-                var deviceId = parseInt(split[3]);
+                var deviceId = (split.slice(1)).join("-");;
                 var level = split[2][1];
 
                 tanksData.type = type;

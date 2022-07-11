@@ -1,16 +1,10 @@
 {
     "cctv": {
         "devices":[
-            {
-                "device_id":"CCTV_00",
-                "rtspChannelId":"",
-                "building": "1",
-                "level": "4",
-                "zone_id":"Ping Pong"
-            },
+            
             {
                 "device_id":"CCTV_01",
-                "rtspChannelId":"rtsp://192.168.4.6:8554/CCTV_01",
+                "rtspChannelId":"1",
                 "building": "1",
                 "level":"1",
                 "zone_id":null

@@ -51,7 +51,7 @@ const BmsTanksCard = (props) => {
             <span id={'tanks-'+props.deviceId+'-card'}>
                 <div className='tanks-sim-running'>
                     
-                    <div className='tanks-device-title-container'>Tank {props.deviceId}</div>
+                    <div className='tanks-device-title-container'>{props.deviceId}</div>
                     
                     <div className='rule mt-3 mb-4'></div>
 

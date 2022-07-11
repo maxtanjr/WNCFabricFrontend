@@ -105,7 +105,7 @@
           },
           
           "Active Power - Abnormal": {
-            "description": "Set Activer Power to draw power greater than 400.0kW.",
+            "description": "Set Active Power to draw power greater than 400.0kW.",
             "value": "AB_KW"
           }
         },

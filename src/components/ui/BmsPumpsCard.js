@@ -12,7 +12,7 @@ const BmsPumpsCard = (props) => {
     const [testCaseVal, setTestCaseVal] = useState("");
 
     const config = require("../../config/config.json");
-    const togglePumpsTestCaseRoute = config.backendHost + ":" + config.backendPort + config.toggleBmsTestCaseRoute;
+    const togglePumpsTestCaseRoute = config.backendHost + ":" + config.backendPort + config.togglePumpsTestCaseRoute;
 
     const openModal = () => {
         setModalState(true);
@@ -51,7 +51,7 @@ const BmsPumpsCard = (props) => {
             <span id={'pumps-'+props.deviceId+'-card'}>
                 <div className='pumps-sim-running'>
                     
-                    <div className='pumps-device-title-container'>Pump {props.deviceId}</div>
+                    <div className='pumps-device-title-container'>{props.deviceId}</div>
                     
                     <div className='rule mt-3 mb-4'></div>
 

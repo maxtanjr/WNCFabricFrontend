@@ -7,7 +7,7 @@ let CCTV = (props) => {
     const config = require("../config/config.json");
     const cctvConfig = require("../config/cctvConfig.json");
 
-    const rtspUrlPrefix = config.backendHost + ":" + config.rtspWebPort + "/stream/wnc/channel/"; //0/hls/live/index.m3u8"
+    const rtspUrlPrefix = config.rtspBackendHost + ":" + config.rtspWebPort + "/stream/wnc/channel/"; //0/hls/live/index.m3u8"
 
     const [error, setError] = useState("");
 
@@ -69,7 +69,7 @@ let CCTV = (props) => {
         var b07Selected = isBuildingSevenSelected;
         var allSelected = isAllSelected;
 
-        console.log(cctvDevicesArr)
+        // console.log(cctvDevicesArr)
 
     }
 

@@ -11,8 +11,8 @@ import React, { useState, useEffect, Fragment } from 'react'
 import {HashRouter as Router, Switch, Route, Link} from 'react-router-dom';
 
 // import components of our pages here
-import Home from './components/Home';
 import Login from './components/Login';
+import Home from './components/Home';
 import Lift from './components/Lift';
 import CCTV from './components/CCTV';
 import BmsBtu from './components/BmsBtu';
@@ -23,7 +23,7 @@ import BmsTanks from './components/BmsTanks';
 
 let App = () => {
 
-  const [jwt, setJwt] = useState("hello");
+  const [jwt, setJwt] = useState("");
   const [user, setUser] = useState("");
 
   // will render the page again when jwt changes

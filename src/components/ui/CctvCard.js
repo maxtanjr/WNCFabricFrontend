@@ -42,21 +42,6 @@ const CctvCard = (props) => {
 
                                 <div className='mx-4 my-1 cctv-data-box-row self-stretch'>
                                     <div className='cctv-field-box'>
-                                        <label>Zone</label>
-                                    </div>
-
-                                    <div className='mx-4 border-l self-stretch'></div>
-
-                                    <div className='cctv-value-box'>
-                                        {isStopped
-                                            ? <label>Disconnected</label>
-                                            : <label>{props.zone}</label>
-                                        }
-                                    </div>   
-                                </div>
-
-                                <div className='mx-4 my-1 cctv-data-box-row self-stretch'>
-                                    <div className='cctv-field-box'>
                                         <label>Level</label>
                                     </div>
 
@@ -70,6 +55,22 @@ const CctvCard = (props) => {
                                     </div>   
                                 </div>
 
+                                <div className='mx-4 my-1 cctv-data-box-row self-stretch'>
+                                    <div className='cctv-field-box'>
+                                        <label>Zone</label>
+                                    </div>
+
+                                    <div className='mx-4 border-l self-stretch'></div>
+
+                                    <div className='cctv-value-box'>
+                                        {isStopped
+                                            ? <label>Disconnected</label>
+                                            : <label>{props.zone}</label>
+                                        }
+                                    </div>   
+                                </div>
+
+                            
                             </div>
                         </div>
 

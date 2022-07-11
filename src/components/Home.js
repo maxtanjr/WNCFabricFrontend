@@ -36,6 +36,8 @@ let Home = () => {
                 setError(null);
             }
 
+            console.log(response)
+
             return response.json();
         })
         .then((json) => {
